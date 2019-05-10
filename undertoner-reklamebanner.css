@@ -1,0 +1,8 @@
+.reklamebanner img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 930px;
+    height: 180px;
+}
