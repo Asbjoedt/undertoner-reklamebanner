@@ -2,11 +2,11 @@
 	display: flex;
 }
 .reklamebanner {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .reklamebanner_billede {
-    width: 930px;
-    height: 180px;
+	width: 930px;
+	height: 180px;
 }
