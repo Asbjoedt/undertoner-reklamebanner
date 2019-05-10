@@ -1,8 +1,12 @@
-.reklamebanner img {
-    display: block;
+.reklamebanner_container {
+	display: flex;
+}
+.reklamebanner {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.reklamebanner_billede {
     width: 930px;
     height: 180px;
 }
