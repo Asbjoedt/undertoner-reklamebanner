@@ -1,9 +1,13 @@
 # undertoner-reklamebanner
-Et plugin til Undertoners WordPress-installation, der gør det muligt via backend at vise reklamebanner i headeren på alle Undertoners sider og indlæg uden at skulle ændre direkte i * */themes/voice-child/sections/header.php* *.
+Et plugin til Undertoners WordPress-installation, der gør det muligt via backend at vise reklamebanner i headeren på alle Undertoners sider og indlæg uden at skulle ændre direkte i */themes/voice-child/sections/header.php*.
 
 **Vejledning til installation:**
-1. Kopier mappen undertoner-reklamebanner til mappen * */wp-content/plugins* * over FTP
-2. Aktivér plugin i plugin kontrolpanelet i WordPress
+1. Kopiér mappen undertoner-reklamebanner til mappen */wp-content/plugins* over FTP
+2. (Hvis ikke allerede eksisterer) Kopiér følgende kode ind i *header.php* det sted reklamen ønskes vist:
+
+	```<?php if (function_exists('vis_undertoner_reklamebanner')) { vis_undertoner_reklamebanner(); } ?>```
+
+3. Aktivér plugin i plugin kontrolpanelet i WordPress
 
 **Vejledning til brug:**
 1. Navigér til "Indstillinger" -> "Undertoner reklamebanner"
