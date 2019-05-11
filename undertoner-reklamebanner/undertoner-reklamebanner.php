@@ -14,7 +14,7 @@ add_action( 'admin_menu', 'undertoner_reklamebanner_menu' );
 function undertoner_reklamebanner_menu(){
   $page_title = 'Undertoner reklamebanner';
   $menu_title = 'Undertoner reklamebanner';
-  $capability = 'manage_options';
+  $capability = 'upload_files';
   $menu_slug  = 'undertoner-reklamebanner';
   $function   = 'undertoner_reklamebanner_backendside';
   $position   = 4;
