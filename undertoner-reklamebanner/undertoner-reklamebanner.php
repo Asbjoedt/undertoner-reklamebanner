@@ -31,28 +31,14 @@ function undertoner_reklamebanner_backendside(){
   <form method="post" action="options.php">
     <?php settings_fields( 'undertoner_reklamebanner_indstillinger' ); ?>
     <?php do_settings_sections( 'undertoner_reklamebanner_indstillinger' ); ?>
-    
 	<table class="form-table">
-	<tr valign="top">
-	<th scope="row">Angiv URL til destination:</th>
-	<td>
-	<input type="text" name="undertoner_reklamebanner_hjemmeside" value="<?php echo get_option( 'undertoner_reklamebanner_hjemmeside' ); ?>"/>
-	</td>
-	</tr>
-	<tr valign="top">
-	<th scope="row">Angiv URL til billede:</th>
-	<td>
-	<input type="text" name="undertoner_reklamebanner_reklamebillede" value="<?php echo get_option( 'undertoner_reklamebanner_reklamebillede' ); ?>"/>
-	</td>
-   	</tr>
-	<tr valign="top">
-	<th scope="row">Reklamebanner synlig</th>
-	<td>
-	<input name="undertoner_reklamebanner_boolean" type="checkbox" value="1" <?php checked( '1', get_option( 'undertoner_reklamebanner_boolean' ) ); ?> />
-	</td>
-    </tr>
-    </table>
-	
+	<tr valign="top"><th scope="row">Angiv URL til destination:</th>
+	<td><input type="text" name="undertoner_reklamebanner_hjemmeside" value="<?php echo get_option( 'undertoner_reklamebanner_hjemmeside' ); ?>"/></td></tr>
+	<tr valign="top"><th scope="row">Angiv URL til billede:</th>
+	<td><input type="text" name="undertoner_reklamebanner_reklamebillede" value="<?php echo get_option( 'undertoner_reklamebanner_reklamebillede' ); ?>"/></td></tr>
+	<tr valign="top"><th scope="row">Reklamebanner synlig</th>
+	<td><input name="undertoner_reklamebanner_boolean" type="checkbox" value="1" <?php checked( '1', get_option( 'undertoner_reklamebanner_boolean' ) ); ?> /></td></tr>
+    	</table>
     <?php submit_button(); ?>
   </form>
 <?php
