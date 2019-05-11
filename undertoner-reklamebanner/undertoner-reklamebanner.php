@@ -58,9 +58,9 @@ function undertoner_reklamebanner_backendside(){
 }
 
 function undertoner_reklamebanner_opdater_indstillinger() {
-  register_setting( 'undertoner-reklamebanner_indstillinger', 'undertoner_reklamebanner_hjemmeside' );
-  register_setting( 'undertoner-reklamebanner_indstillinger', 'undertoner_reklamebanner_reklamebillede' );
-  register_setting( 'undertoner-reklamebanner_indstillinger', 'undertoner_reklamebanner_boolean' );
+  register_setting( 'undertoner_reklamebanner_indstillinger', 'undertoner_reklamebanner_hjemmeside' );
+  register_setting( 'undertoner_reklamebanner_indstillinger', 'undertoner_reklamebanner_reklamebillede' );
+  register_setting( 'undertoner_reklamebanner_indstillinger', 'undertoner_reklamebanner_boolean' );
 }
 
 // Viser reklamebanner i header
