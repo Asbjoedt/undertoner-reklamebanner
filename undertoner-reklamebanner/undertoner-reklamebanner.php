@@ -2,9 +2,10 @@
 
 /**
  * Plugin Name: Undertoner reklamebanner
- * Plugin URI: https://youtu.be/boIKuEl6l0Y
  * Description: Tilføjer funktion til opsætning af reklamebanner under "Indstillinger".
+ * Version: 1.0
  * Author: Asbjørn Skødt
+ * Author URI: https://youtu.be/boIKuEl6l0Y
  **/
  
 // Laver menu i backend
